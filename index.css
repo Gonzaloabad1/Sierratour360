@@ -476,3 +476,20 @@ nav {
             padding: 0.8rem 1rem;
         }
     }
+.button-reserva {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #5b9bcf; /* ¡Aquí faltaba el punto y coma! */
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.button-reserva:hover {
+    background-color: #4a82b0; /* Un tono ligeramente más oscuro para el efecto hover */
+}
